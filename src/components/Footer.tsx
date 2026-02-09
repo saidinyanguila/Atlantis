@@ -14,7 +14,7 @@ const Footer = () => {
 				<div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12">
 					{/* Brand */}
 					<div className="col-span-2 md:col-span-1">
-						<Link to="/" className="font-serif text-2xl tracking-wide">
+						<Link to="/Atlaintis/" className="font-serif text-2xl tracking-wide">
 						ATLANTIS
 						</Link>
 						<p className="text-sm text-muted-foreground mt-4 max-w-xs">

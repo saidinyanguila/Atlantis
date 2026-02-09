@@ -89,7 +89,7 @@ const CartDrawer = () => {
               <span className="font-serif text-lg">${totalPrice.toLocaleString()}</span>
             </div>
             <Link
-              to="/cart"
+              to="/Atlaintis/cart"
               onClick={() => setIsOpen(false)}
               className="block"
             >

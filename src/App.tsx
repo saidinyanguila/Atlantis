@@ -19,16 +19,16 @@ const App = () => (
 		<CartProvider>
 			<Toaster />
 			<Sonner />
-			<BrowserRouter>
-			<CartDrawer />
-			<AuthPopup />
-			<Routes>
-				<Route path="/" element={<Index />} />
-				<Route path="/product/:slug" element={<ProductDetail />} />
-				<Route path="/cart" element={<Cart />} />
-				{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-				<Route path="*" element={<NotFound />} />
-			</Routes>
+			<BrowserRouter basename="/Atlantis">
+				<CartDrawer />
+				<AuthPopup />
+				<Routes>
+					<Route path="/" element={<Index />} />
+					<Route path="/product/:slug" element={<ProductDetail />} />
+					<Route path="/cart" element={<Cart />} />
+					{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+					<Route path="*" element={<NotFound />} />
+				</Routes>
 			</BrowserRouter>
 		</CartProvider>
 		</TooltipProvider>

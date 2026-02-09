@@ -118,7 +118,7 @@ const Header = () => {
 											{isMenuOpen ? <X size={20} /> : <Menu size={20} />}
 										</button>
 
-										<Link to="/" className="font-serif text-xl md:text-2xl tracking-wide">
+										<Link to="/Atlaintis/" className="font-serif text-xl md:text-2xl tracking-wide">
 											ATLANTIS
 										</Link>
 

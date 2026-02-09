@@ -90,7 +90,7 @@ const ProductDetail = () => {
 				<Header />
 				<main className="pt-32 pb-20 text-center">
 					<h1 className="font-serif text-3xl mb-4">Product Not Found</h1>
-					<Link to="/" className="text-sm uppercase tracking-widest hover:text-muted-foreground transition-colors">
+					<Link to="/Atlaintis/" className="text-sm uppercase tracking-widest hover:text-muted-foreground transition-colors">
 						← Back to Shop
 					</Link>
 				</main>
@@ -105,7 +105,7 @@ const ProductDetail = () => {
 			<main className="pt-24 md:pt-28 pb-20">
 				<div className="container mx-auto px-6">
 					{/* Breadcrumb */}
-					<Link to="/" className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-8 md:mb-12">
+					<Link to="/Atlaintis/" className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-8 md:mb-12">
 						<ArrowLeft size={16} />
 						Back
 					</Link>

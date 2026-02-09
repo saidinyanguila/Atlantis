@@ -29,7 +29,7 @@ const Cart = () => {
 			<Header/>
 			<main className="pt-24 md:pt-28 pb-20">
 				<div className="container mx-auto px-6">
-					<Link to="/" className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-8 md:mb-12">
+					<Link to="/Atlaintis/" className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors mb-8 md:mb-12">
 						<ArrowLeft size={16} />
 						Continue Shopping
 					</Link>
@@ -40,7 +40,7 @@ const Cart = () => {
 					(
 						<div className="text-center py-20">
 							<p className="text-muted-foreground mb-6">Your cart is empty.</p>
-							<Link to="/">
+							<Link to="/Atlaintis/">
 								<Button variant="outline">Shop Now</Button>
 							</Link>
 						</div>
@@ -61,7 +61,7 @@ const Cart = () => {
 									/>
 									</Link>
 									<div className="flex-1">
-									<Link to={`/product/${item.slug}`}>
+									<Link to={`/Atlaintis/product/${item.slug}`}>
 										<h3 className="font-serif text-lg hover:text-muted-foreground transition-colors">
 										{item.name}
 										</h3>
