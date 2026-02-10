@@ -10,7 +10,7 @@ interface ProductCardProps {
 
 const ProductCard = ({ name, price, image, category, slug }: ProductCardProps) => {
 	return (
-		<a href={`/Atltantis//product/${slug}`} className="block">
+		<a href={`/Atlantis/product/${slug}`} className="block">
 			<article className="product-card group cursor-pointer">
 				<div className="relative overflow-hidden bg-secondary mb-4">
 					<img src={image} alt={name} className="product-card-image" loading="lazy"/>
